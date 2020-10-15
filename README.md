@@ -6,6 +6,8 @@ UnSHc - How to decrypt SHc *.sh.x encrypted file ?
 I will not decrypt any file for people.
 Issues on GitHub are only to discuss about bug and/or improvement of the tool "UnSHc".
 
+**Due to the many problems since shc 4.0.3, there seems to be a need for clarification. In shc 4.0.3 many structural changes have been incorporated, so that shc now makes use of various security mechanisms provided by the linux-kernel itself. Therefore, it is now almost impossible to extract the original shell script at all with current UnSHc version, if the new shc version was used. This requires a more in-depth approach, which means that a modified bash or a modified linux-kernel is needed to bypass the security measures.**
+
 If you think you have found a bug, please provide me the encrypted file ***AND the unencrypted file corresponding***. Without these two files I can't reverse it and analyze it.
 Add some information about the architecture where the encrypted file has been created (what linux distribution and version, what architecture x86 or x64, etc.).
 
